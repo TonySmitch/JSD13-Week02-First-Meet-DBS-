@@ -1,4 +1,4 @@
-use (chrome-burger-db-JSD13);
+use ("chrome-burger-db-JSD13");
 db.staff.deleteMany({});
 
 db.staff.insertMany([
@@ -27,3 +27,4 @@ db.staff.insertMany([
     "role": "Cook"
   }
 ]);
+db.staff.find({});

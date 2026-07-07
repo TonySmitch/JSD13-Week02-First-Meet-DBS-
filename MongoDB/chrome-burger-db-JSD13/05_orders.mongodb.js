@@ -1,4 +1,4 @@
-use (chrome-burger-db-JSD13);
+use ("chrome-burger-db-JSD13");
 //Clear existing data
 db.orders.deleteMany({});
 // Insert mock data

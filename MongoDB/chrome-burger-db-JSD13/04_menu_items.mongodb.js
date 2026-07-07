@@ -1,4 +1,4 @@
-use (chrome-burger-db-JSD13);
+use ("chrome-burger-db-JSD13");
 db.menu_items.deleteMany({});
 db.menu_items.insertMany([
   {

@@ -1,4 +1,4 @@
-use (chrome-burger-db-JSD13);
+use ("chrome-burger-db-JSD13");
 db.ingredients.deleteMany({});
 db.ingredients.insertMany([
   {
@@ -22,4 +22,15 @@ db.ingredients.insertMany([
     "unit": "heads",
     "supplier_id": ObjectId("65f000000000000000000003") // Freshest Farm Produce
   }
+]);
+// Find all ingredients and join with suppliers information
+db.ingredients.aggregate([
+{$lookup: {
+from: "suppliers",
+localField: "supplier_id",
+foreignField: "_id",
+as: "supplier_info"
+}},
+
+{ $unwind: "$supplier_info"},
 ]);
