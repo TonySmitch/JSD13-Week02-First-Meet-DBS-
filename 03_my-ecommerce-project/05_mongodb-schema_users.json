@@ -1,0 +1,44 @@
+[
+  {
+    "_id": { "$oid": "000001" },
+    "username": "tony_buyer",
+    "email": "tony.b@example.com",
+    "role": "buyer",
+    "buyer_profile": {
+      "shipping_addresses": [
+        {
+          "address_line": "123/45 ถนนร่มเกล้า",
+          "sub_district": "แสนแสบ",
+          "district": "มีนบุรี",
+          "province": "กรุงเทพมหานคร",
+          "postal_code": "10510",
+          "is_default": true
+        }
+      ],
+      "preferences": ["electronics", "gadgets"]
+    },
+    "seller_profile": null,
+    "created_at": { "$date": "2026-07-08T06:00:00Z" },
+    "updated_at": { "$date": "2026-07-08T06:00:00Z" }
+  },
+  {
+    "_id": { "$oid": "000002" },
+    "username": "xtar_shop",
+    "email": "contact@xtar.com",
+    "role": "seller",
+    "buyer_profile": null,
+    "seller_profile": {
+      "shop_name": "E-Star Official Store",
+      "shop_description": "จำหน่ายอุปกรณ์ไอทีและระบบเน็ตเวิร์ก",
+      "tax_id": "1234567890123",
+      "bank_account": {
+        "bank_name": "Kasikornbank",
+        "account_number": "0123456789",
+        "account_holder": "E-Star Co., Ltd."
+      },
+      "is_verified": true
+    },
+    "created_at": { "$date": "2026-07-08T06:15:00Z" },
+    "updated_at": { "$date": "2026-07-08T06:15:00Z" }
+  }
+]
