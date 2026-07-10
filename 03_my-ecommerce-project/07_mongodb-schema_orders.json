@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "10082026abcdef001" ,
+    "order_number": "ORD-20260710-0001",
+    "buyer_id": "10082026abcdef000001",
+    "seller_id": { "$oid": "10082026abcdef000002" },
+    "items": [
+      {
+        "product_id": "10082026abcdef00001",
+        "title": "บริการอัดรูปด่วนสำหรับพาสปอร์ตและวีซ่า (พร้อมส่งถึงบ้าน)",
+        "price": 120.00,
+        "quantity": 2,
+        "customization": {
+          "selected_size": "Visa (2x2 inches)",
+          "selected_template": "US Visa",
+          "user_uploaded_image_url": "https://storage.example.com/raw-uploads/user123_face.jpg",
+          "web_app_editor_state": {
+            "zoom": 1.2,
+            "brightness": 5,
+            "contrast": 0,
+            "crop_x": 45,
+            "crop_y": 60
+          }
+        }
+      }
+    ],
+    "pricing": {
+      "subtotal": 240.00,
+      "shipping_fee": 40.00,
+      "discount": 0.00,
+      "total_amount": 280.00,
+      "currency": "THB"
+    },
+    "payment": {
+      "method": "promptpay",
+      "status": "paid",
+      "transaction_id": "TXN9876543210",
+      "paid_at": { "$date": "2026-07-10T04:30:00Z" }
+    },
+    "delivery": {
+      "courier": "Thailand Post (EMS)",
+      "tracking_number": "EF123456789TH",
+      "status": "pending",
+      "shipping_address": {
+        "recipient_name": "คุณโทนี่",
+        "phone_number": "0812345678",
+        "address_line": "123/45 ถนนร่มเกล้า",
+        "sub_district": "แสนแสบ",
+        "district": "มีนบุรี",
+        "province": "กรุงเทพมหานคร",
+        "postal_code": "10510"
+      }
+    },
+    "order_status": "processing",
+    "created_at": "2026-07-10T04:25:00Z", 
+    "updated_at": "2026-07-10T04:35:00Z" 
+  }
+]

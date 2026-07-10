@@ -1,0 +1,63 @@
+[
+  {
+    "_id": "668f987654321abcdef00001",
+    "title": "บริการอัดรูปด่วนสำหรับพาสปอร์ตและวีซ่า (พร้อมส่งถึงบ้าน)",
+    "description": "บริการปรับแต่งและอัดรูปถ่ายสำหรับยื่นพาสปอร์ตหรือวีซ่าประเทศต่างๆ ผ่านระบบหน้าเว็บ สามารถเลือกเทมเพลตตามมาตรฐานสถานทูตได้ จัดส่งรูปเล่มจริงถึงหน้าบ้าน",
+    "price": 120.00,
+    "currency": "THB",
+    "stock": 9999,
+    "category": {
+      "main": "Photography Services",
+      "sub": "Official Documents"
+    },
+    "images": [
+      "https://example.com/images/passport-service.jpg",
+      "https://example.com/images/passport-template-preview.jpg"
+    ],
+    "seller_id": "65f123456789abcdef000002",
+    "service_details": {
+      "available_sizes": ["Passport", "Visa (2x2 inches)", "Visa (3.5x4.5 cm)"],
+      "has_web_template": true,
+      "templates_supported": ["Thailand Passport", "US Visa", "Schengen Visa", "Japan Visa"],
+      "delivery_included": true,
+      "estimated_processing_days": 1
+    },
+    "ratings": {
+      "average": 4.9,
+      "count": 142
+    },
+    "status": "active",
+    "created_at": "2026-07-10T04:00:00Z",
+    "updated_at":  "2026-07-10T04:00:00Z"
+  },
+  {
+    "_id": "668f987654321abcdef00002",
+    "title": "แพ็กเกจรูปถ่ายติดบัตร/สมัครงาน (ขนาด 1 นิ้ว, 1.5 นิ้ว, 2 นิ้ว)",
+    "description": "อัดรูปถ่ายติดบัตรหน้าตรง เปลี่ยนสีฉากหลังผ่าน Web Application ได้ฟรี เลือกคละขนาดได้ตามต้องการ บริการจัดส่งด่วน Express Delivery",
+    "price": 80.00,
+    "currency": "THB",
+    "stock": 9999,
+    "category": {
+      "main": "Photography Services",
+      "sub": "ID Photos"
+    },
+    "images": [
+      "https://example.com/images/id-photo-service.jpg"
+    ],
+    "seller_id":"65f123456789abcdef000002",
+    "service_details": {
+      "available_sizes": ["1 inch", "1.5 inches", "2 inches"],
+      "has_web_template": true,
+      "templates_supported": ["Blue Background", "White Background", "Formal Suit Template"],
+      "delivery_included": true,
+      "estimated_processing_days": 1
+    },
+    "ratings": {
+      "average": 4.7,
+      "count": 95
+    },
+    "status": "active",
+    "created_at": "2026-07-10T04:15:00Z",
+    "updated_at": "2026-07-10T04:15:00Z"
+  }
+]
