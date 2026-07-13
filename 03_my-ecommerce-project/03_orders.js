@@ -260,5 +260,7 @@ db.orders.aggregate([
       foreignField: "_id",
       as: "000001"
     }
-  }
+  },
+
+{$unwind: "_id"}
 ]);

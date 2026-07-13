@@ -3,10 +3,10 @@
     "_id": "10082026abcdef001" ,
     "order_number": "ORD-20260710-0001",
     "buyer_id": "10082026abcdef000001",
-    "seller_id": { "$oid": "10082026abcdef000002" },
+    "seller_id": "10082026abcdef000002",
     "items": [
       {
-        "product_id": "10082026abcdef00001",
+        "product_id": "P00001",
         "title": "บริการอัดรูปด่วนสำหรับพาสปอร์ตและวีซ่า (พร้อมส่งถึงบ้าน)",
         "price": 120.00,
         "quantity": 2,
